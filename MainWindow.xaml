@@ -40,6 +40,8 @@
       </Grid.RowDefinitions>
       <CheckBox x:Name="FullscreenCheckBox" Content="Fullscreen" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" />
       <CheckBox x:Name="VSyncCheckBox" Content="VSync" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" />
+      <CheckBox x:Name="FPSLimitCheckBox" Content="FPS Limit" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" />
+      <CheckBox x:Name="ShowFPSCheckBox" Content="Show FPS" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" />
     </Grid>
     
     <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="100"

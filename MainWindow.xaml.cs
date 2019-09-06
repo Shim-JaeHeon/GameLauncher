@@ -23,7 +23,7 @@ namespace GameLauncher
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string GameFolder = @"D:\Dev\Unreal\UnrealWWY\Saved\StagedBuilds\WindowsNoEditor\";
+        private const string GameFolder = @".\Saved\StagedBuilds\WindowsNoEditor\";
 
 
         private List<int> _width = new List<int>()
@@ -121,7 +121,6 @@ namespace GameLauncher
             }
 
             string gameEXE = GameFolder + _projectName + @".exe";
-            Debug.WriteLine(parameters);
             Process.Start(gameEXE, parameters);
         }
     }
